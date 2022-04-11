@@ -44,8 +44,8 @@ public class DadosDaAnalise {
 	               
 	             
 	              if((idade >= 10) && (idade <= 20)) {
-	            	  somaAltura = altura + somaAltura;
-	            			  media++; 
+	                somaAltura = altura + somaAltura;
+	            	  media++; 
 	              }
 	             
 	              if (peso < 40) {
