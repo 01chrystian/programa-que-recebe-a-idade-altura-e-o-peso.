@@ -13,8 +13,8 @@ public class DadosDaAnalise {
 			String nome;
 			int idade = 0;
 			int peso;
-		    int altura = 0;
-		    int media = 0;
+		        int altura = 0;
+		        int media = 0;
 			int quantidadeP = 0;
 			double somaAltura = 0;
 			int pesoP = 0;
@@ -25,16 +25,16 @@ public class DadosDaAnalise {
 			
 			for ( int p = 0; p < digitP; p++) {
 				 
-				 System.out.println("-----Preencha seus dados-----");
+		      System.out.println("-----Preencha seus dados-----");
 				  
-				  System.out.println("Digite seu nome: ");
-				    nome = sc.next();
+		      System.out.println("Digite seu nome: ");
+	                 nome = sc.next();
 				  
-		          System.out.println("Digite sua idade: ");
-	               idade = sc.nextInt();
-				     if (idade > 50) {
-					   quantidadeP++;
-				      }
+		      System.out.println("Digite sua idade: ");
+	                 idade = sc.nextInt();
+		            if (idade > 50) {
+			       quantidadeP++;
+		      }
 				 
 	              System.out.println("Digite seu peso: ");
 	                peso = sc.nextInt();
@@ -56,9 +56,9 @@ public class DadosDaAnalise {
 				
 	          }
 			 
-			System.out.println("A porcentagem de pessoas com menos de 40kg È: " + pesoP * 100/ digitP  + "%");
-			System.out.println("A media da altura È: " + somaAltura/media);
-			System.out.println("A quantidade de pessoas com mais de 50 anos s„o: " + quantidadeP);
+			System.out.println("A porcentagem de pessoas com menos de 40kg √©: " + pesoP * 100/ digitP  + "%");
+			System.out.println("A media da altura √©: " + somaAltura/media);
+			System.out.println("A quantidade de pessoas com mais de 50 anos s√£o: " + quantidadeP);
 		       
 		
 	}	
