@@ -1,7 +1,7 @@
 package Dados;
 import java.util.Scanner;
 import java.lang.ArithmeticException;
-
+import java.util.InputMismatchException;
 public class DadosDaAnalise {
 	
 	
@@ -12,9 +12,9 @@ public class DadosDaAnalise {
 			
 			String nome;
 			int idade = 0;
-			int peso;
-		        int altura = 0;
-		        int media = 0;
+			double peso;
+		        double altura = 0;
+		        double media = 0;
 			int quantidadeP = 0;
 			double somaAltura = 0;
 			int pesoP = 0;
@@ -37,10 +37,10 @@ public class DadosDaAnalise {
 		      }
 				 
 	              System.out.println("Digite seu peso: ");
-	                peso = sc.nextInt();
+	                peso = sc.nextDouble();
 	            
 	              System.out.println("Digite sua altura: ");
-	                altura = sc.nextInt();
+	                altura = sc.nextDouble();
 	               
 	             
 	              if((idade >= 10) && (idade <= 20)) {
